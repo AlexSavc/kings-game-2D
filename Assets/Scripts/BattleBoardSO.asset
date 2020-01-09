@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24d0d8c423e19d046b9f7481a03b7b96, type: 3}
+  m_Name: BattleBoardSO
+  m_EditorClassIdentifier: 
+  BoardSize: 16
+  currentView: 7
+  selectedObject: {fileID: 0}
+  PlayerColors:
+  - {fileID: 2100000, guid: ff942e148e36fef4abe4b1860c14ee96, type: 2}
+  - {fileID: 2100000, guid: 7e9d66e11b2bfb54c81997f29fa2ca46, type: 2}
+  - {fileID: 2100000, guid: 5e339c3b44e64b543a503d12787003d2, type: 2}
+  - {fileID: 2100000, guid: 30362dffcc5043e43abf974702b8c325, type: 2}
+  DefaultGrassTiles:
+  - {fileID: 1717797939657490, guid: e718bae055085784599d2ec4e1551e68, type: 2}
+  - {fileID: 1120282681163036, guid: 71a28f91ff031a043aa7eca96aca3d82, type: 2}
+  - {fileID: 1717797939657490, guid: e718bae055085784599d2ec4e1551e68, type: 2}
+  - {fileID: 1120282681163036, guid: 71a28f91ff031a043aa7eca96aca3d82, type: 2}
+  - {fileID: 1717797939657490, guid: e718bae055085784599d2ec4e1551e68, type: 2}
+  - {fileID: 1120282681163036, guid: 71a28f91ff031a043aa7eca96aca3d82, type: 2}
+  - {fileID: 1717797939657490, guid: e718bae055085784599d2ec4e1551e68, type: 2}
+  - {fileID: 1120282681163036, guid: 71a28f91ff031a043aa7eca96aca3d82, type: 2}
+  SelectionTracker:
+  - {fileID: 1923660498521410, guid: eb81c8602bb962045ac9eb9b7703bf3c, type: 2}
+  - {fileID: 1188072046334618, guid: e722a749960a93d449c16bddad913df1, type: 2}
+  MoveTracker:
+  - {fileID: 1923660498521410, guid: fb82607fdb3cd8f48bcc1c36826d1ae1, type: 2}
+  - {fileID: 1188072046334618, guid: f246879791c8dd4408f342e1392762bd, type: 2}
+  AttackTracker:
+  - {fileID: 1923660498521410, guid: f5d97b3561afefb44a312facc5a467f0, type: 2}
+  - {fileID: 1188072046334618, guid: fa2334a661a85d44e85c184669060c2b, type: 2}
+  King:
+  - {fileID: 1046607505674700, guid: 36a5190342432914baf398d1938b688e, type: 2}
+  - {fileID: 1046607505674700, guid: 3038705c6730e8145a5bb013023230a0, type: 2}
+  - {fileID: 1046607505674700, guid: 99c54d0673024b64aa1727bcf47e643e, type: 2}
+  - {fileID: 1046607505674700, guid: 87b911ec0a97ccc4483717446cf1c911, type: 2}
+  - {fileID: 1046607505674700, guid: 5655ef94e24d5df4fadf709a8362e93c, type: 2}
+  - {fileID: 1046607505674700, guid: 667c5297c04c62b4cb9d4292f26d01a5, type: 2}
+  - {fileID: 1046607505674700, guid: f4d0bdc01c6960442b0bac3055fb4d1c, type: 2}
+  - {fileID: 1046607505674700, guid: 2a6d9517d6ce18b4590790f7df7eb059, type: 2}
+  Queen:
+  - {fileID: 1046607505674700, guid: 4e38d4fb64717884ba4be76acbbaa696, type: 2}
+  - {fileID: 1046607505674700, guid: c3c94230a701b1c4a817943d47db98c7, type: 2}
+  - {fileID: 1046607505674700, guid: fb08b45ecc988ac45ae6df6df90766b1, type: 2}
+  - {fileID: 1046607505674700, guid: f73674844241d4047a22b21185f97452, type: 2}
+  - {fileID: 1046607505674700, guid: b6955332b53cce2489a5cac0515cad16, type: 2}
+  - {fileID: 1046607505674700, guid: 6c7a5920eb636954e9d9ed4fb16c9169, type: 2}
+  - {fileID: 1046607505674700, guid: 8b27bab4cb39af0479ada13cd141f433, type: 2}
+  - {fileID: 1046607505674700, guid: 08473efc40394064bac2cb78174d8f30, type: 2}
+  Bishop:
+  - {fileID: 1046607505674700, guid: aaaa02205e75e194fbac9e17fde93bc7, type: 2}
+  - {fileID: 1046607505674700, guid: c4fb8b3ebaeb36b429b0cff4cdfdbef8, type: 2}
+  - {fileID: 1046607505674700, guid: 3659255d7df90684a9949e0deed7ec2a, type: 2}
+  - {fileID: 1046607505674700, guid: 2467dcfce9462be40a88e276a4dfa7b2, type: 2}
+  - {fileID: 1046607505674700, guid: 03a3955f10f7fd2408ebb81cbe8c1f43, type: 2}
+  - {fileID: 1046607505674700, guid: a09b131c6192e46489ff0c78befd3b22, type: 2}
+  - {fileID: 1046607505674700, guid: 1a7eb41fb8fe3eb4988f7d9ce9431b9c, type: 2}
+  - {fileID: 1046607505674700, guid: 2e4354eecd8ada9428e18b41058301a3, type: 2}
+  Knight:
+  - {fileID: 1046607505674700, guid: 4d372b9069d94294dbcabcd7c9efc11c, type: 2}
+  - {fileID: 1046607505674700, guid: 93d77aba09fcb614e9cb438d0be9f398, type: 2}
+  - {fileID: 1046607505674700, guid: 4b098dd77d1ecdd4a9ff7748a2748a5c, type: 2}
+  - {fileID: 1046607505674700, guid: 16fbe0cde4b209e468e5f24777c685ad, type: 2}
+  - {fileID: 1046607505674700, guid: 27e4e8b2197aac849939558a9c9f963b, type: 2}
+  - {fileID: 1046607505674700, guid: 658e7256bfabdc64dae735c529d0b153, type: 2}
+  - {fileID: 1046607505674700, guid: 81b8d34612d482a4db0f9ee7edbd7a2d, type: 2}
+  - {fileID: 1046607505674700, guid: 7134642cd576b4247a3ced9c214dfdd3, type: 2}
+  Rook:
+  - {fileID: 1046607505674700, guid: 468e57a65d8527645bb86452e5bd8b3a, type: 2}
+  - {fileID: 1046607505674700, guid: 1b2af679ce42c0940801c55d5676283b, type: 2}
+  - {fileID: 1046607505674700, guid: 3eac8700cb99372429cd1dfc0ae481b2, type: 2}
+  - {fileID: 1046607505674700, guid: 51d1b9acf4f65c349b9a0802af2f73f6, type: 2}
+  - {fileID: 1046607505674700, guid: 71d77924eb8539944b8d2173124013ce, type: 2}
+  - {fileID: 1046607505674700, guid: d2a9a3d2ce0fcce45ae783821f044a67, type: 2}
+  - {fileID: 1046607505674700, guid: a89025a2acf6b6448819b78e030f6f4c, type: 2}
+  - {fileID: 1046607505674700, guid: 70ee3468bbacb66448257c85e7e0f1e2, type: 2}
+  Pawn:
+  - {fileID: 1046607505674700, guid: ea7537b8e00acbe40beeaee7b4ff0067, type: 2}
+  - {fileID: 1046607505674700, guid: 9821045e137f28041ad185d826750210, type: 2}
+  - {fileID: 1046607505674700, guid: d83c7dd6d1445de4b8bda25919144a26, type: 2}
+  - {fileID: 1046607505674700, guid: 607bb0247def04b42bc92546d59098a8, type: 2}
+  - {fileID: 1046607505674700, guid: 9d8b8040b8db17d498860491bd21c50e, type: 2}
+  - {fileID: 1046607505674700, guid: c4f1da295a927484294561e02acadbde, type: 2}
+  - {fileID: 1046607505674700, guid: 79502dd9b44da474295c85cda4eb0aa4, type: 2}
+  - {fileID: 1046607505674700, guid: c695d6a3e988a8e4eb57e0e3199166d2, type: 2}
+  City:
+  - {fileID: 1818936059572920, guid: b1253fbcf18203a4889149e23fd67730, type: 2}
+  - {fileID: 1017323314914062, guid: 2a73d76c9c4fb7b42ac7715132ea4b9c, type: 2}
+  Forest:
+  - {fileID: 1818936059572920, guid: d9786bb27e9af024c87c936ae87960ac, type: 2}
+  - {fileID: 1017323314914062, guid: 2e6e86e6aa41d2f4eb690d6ad0a3698c, type: 2}
+  Tree:
+  - {fileID: 0}
+  - {fileID: 0}
+  Field:
+  - {fileID: 1818936059572920, guid: 6c6a408598cc8584894e37cd962df29e, type: 2}
+  - {fileID: 1017323314914062, guid: a79eff554287fc047aa048c00c0a9ace, type: 2}
+  Rocks:
+  - {fileID: 0}
+  - {fileID: 0}
+  Mountains:
+  - {fileID: 0}
+  - {fileID: 0}
